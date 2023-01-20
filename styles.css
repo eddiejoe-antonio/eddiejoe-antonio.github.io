@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "akidenz";
+    src: url("data/Akzidenz-grotesk-light.ttf");
+}
+
+body {
+    font-family: "akidenz";
+    background: black;
+}
+
+p {
+    position: absolute;
+    text-transform: lowercase;
+    color:white;
+    font-size: 5vh;
+    top: 50%;
+    left:20%;
+    right:10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :visited {
+    text-decoration: none;
+    color:red;
+}
+
+a :hover {
+    background-color: #888;
+    box-shadow: 0 5px gold;
+    transform: translateY(4px);
+    transition-duration: .25s;
+}
