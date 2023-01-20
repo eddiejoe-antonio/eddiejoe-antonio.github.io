@@ -8,6 +8,9 @@ body {
     background: black;
 }
 
+
+/*** UNIQUE Rules ***/
+
 p {
     position: absolute;
     text-transform: lowercase;
@@ -16,6 +19,12 @@ p {
     top: 50%;
     left:20%;
     right:10%;
+}
+
+.links {
+    font-size: 2vh;
+    position:relative;
+    margin-left: 50%;
 }
 
 a {
