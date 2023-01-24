@@ -5,7 +5,9 @@
 
 body {
     font-family: "akidenz";
-    background: black;
+    background-image: url('./background.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 
@@ -14,27 +16,27 @@ body {
 p {
     position: absolute;
     text-transform: lowercase;
-    color:white;
-    font-size: 5vh;
-    top: 50%;
-    left:20%;
-    right:10%;
+    font-size: 10vh;
+    line-height: 10vh;
+    top: 45%;
+    left:40%;
+}
+
+.title {
 }
 
 .links {
     font-size: 2vh;
     position:relative;
-    margin-left: 50%;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a :visited {
     text-decoration: none;
-    color:red;
 }
 
 a :hover {
