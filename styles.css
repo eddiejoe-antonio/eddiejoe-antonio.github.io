@@ -22,9 +22,6 @@ p {
     left:40%;
 }
 
-.title {
-}
-
 .links {
     font-size: 2vh;
     position:relative;
@@ -33,15 +30,11 @@ p {
 a {
     text-decoration: none;
     color: black;
+    padding: 2%;
 }
 
-a :visited {
-    text-decoration: none;
+a:hover {
+    background-color: aqua;
+    transition: .5s;
 }
 
-a :hover {
-    background-color: #888;
-    box-shadow: 0 5px gold;
-    transform: translateY(4px);
-    transition-duration: .25s;
-}

@@ -1,0 +1,105 @@
+$color-black: #04192d;
+$color-white: #c8d6e0;
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: $color-black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#layer1, #layer2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotate 150s ease-in-out infinite;
+  --rotate: 1deg; // Fallback for browsers that don't support @property
+}
+
+#layer1 {
+  filter: blur(20px);
+}
+
+#layer2 {
+  filter: blur(10px);
+  mix-blend-mode: color-dodge;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal {
+  background-color: rgba(white, 0.05);
+  box-shadow: 
+    inset 0 0 25px rgba($color-white, 0.05), 
+    0 0 5px rgba($color-black, 0.1),
+    0 0 25px rgba($color-black, 0.3),
+    0 0 50px rgba($color-black, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  font-size: 24px;
+  backdrop-filter: blur(50px);
+  display: flex;
+  flex-direction: column;
+  color: $color-white;
+  max-width: 500px;
+  z-index: 10;
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin: 5px 0;
+    color: darken($color-white, 15);
+    text-shadow: 0 0 5px rgba($color-black, 0.7)
+  }
+}
+
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-image: linear-gradient($color-white, darken($color-white, 30%));
+  border-radius: 5px;
+  margin: 15px auto 0;
+  text-align: center;
+  cursor: pointer;
+  color: $color-black;
+  box-shadow: 0 0 10px rgba($color-black, 0.5);
+  font-size: 1rem;
+  width: 150px;
+  
+  &:hover svg {
+    transform: rotate(-30deg);
+  }
+  
+  svg {
+    $size: 15px;
+    width: $size;
+    height: $size;
+    margin-right: 5px;
+    transition: all 0.2s ease-out;
+  }
+}
+
+@property --rotate {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 1deg;
+}
+
+@keyframes rotate {
+  0%, 100% {
+    --rotate: 1deg;
+  }
+  50% {
+    --rotate: 2deg;
+  }
+}
