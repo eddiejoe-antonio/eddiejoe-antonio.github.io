@@ -5,9 +5,9 @@
 
 body {
     font-family: "akidenz";
-    background-image: url('./background.svg');
+    background-image: url('./data/background.svg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 
@@ -28,13 +28,14 @@ p {
 }
 
 a {
+    text-transform: lowercase;
     text-decoration: none;
     color: black;
     padding: 2%;
 }
 
 a:hover {
-    background-color: aqua;
+    background-color: #dedede;
     transition: .5s;
 }
 
