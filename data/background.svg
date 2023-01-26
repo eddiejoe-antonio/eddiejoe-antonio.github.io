@@ -7,13 +7,14 @@
 	.st1{fill:url(#SVGID_1_);}
 </style>
 <g class="st0">
-	<radialGradient id="SVGID_1_" cx="641" cy="512.5" r="580.0462" gradientUnits="userSpaceOnUse">
+	
+		<radialGradient id="SVGID_1_" cx="644.3825" cy="512.998" r="593.262" gradientTransform="matrix(1 0 0 -1 0 1024)" gradientUnits="userSpaceOnUse">
 		<stop  offset="5.618000e-03" style="stop-color:#F15F53"/>
 		<stop  offset="0.3095" style="stop-color:#F6938B"/>
 		<stop  offset="0.7833" style="stop-color:#FCE0DE"/>
 		<stop  offset="1" style="stop-color:#FFFFFF"/>
 	</radialGradient>
-	<rect x="2.5" y="-2.5" class="st1" width="1277" height="1030"/>
-	<path d="M1279-2v1029H3V-2H1279 M1280-3H2v1031h1278V-3L1280-3z"/>
+	<rect x="-8.7" y="-15.7" class="st1" width="1306.1" height="1053.5"/>
+	<path d="M1296.9-15.2v1052.4H-8.2V-15.2H1296.9 M1297.9-16.2H-9.2v1054.5h1307.1V-16.2L1297.9-16.2z"/>
 </g>
 </svg>
