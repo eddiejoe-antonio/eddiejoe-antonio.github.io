@@ -5,6 +5,7 @@
 
 body {
     font-family: "akidenz";
+    /*background: radial-gradient(#e66465, #9198e5);*/
     background-image: url('./data/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +15,9 @@ body {
     margin-top: 2.5vh;
 }
 
-@media screen {
-    
+.responsive-spacing {
+    display: block;
+    margin-bottom: 9vh;
 }
 
 /*** UNIQUE Rules ***/
@@ -26,7 +28,6 @@ body {
     text-decoration: none;
     color: black;
     font-size: 3.5vh;
-    max-width: 100%;
     margin-left: -.5%;
     padding: .5%;
 }
