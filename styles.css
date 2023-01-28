@@ -6,14 +6,12 @@
 body {
     font-family: "akidenz";
     background: radial-gradient(circle, #f15f53, #ffffff);
-
     /*background-image: url('./data/background.svg');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     margin-left: 2%;
-    margin-top: 2.5vh;
 }
 
 .responsive-spacing {
@@ -110,12 +108,19 @@ body {
   /** ABOUT PAGE Rules **/
 
   .about__text {
-    max-width: 80%;
+    max-width: 70%;
+    font-size: 3.5vh;
   }
+
+  hr {
+    border: 2px dashed;
+    max-width: 50%;
+    margin-left: 0%;
+}  
 
   @media (min-width: 600px) {
     .about__text {
-        margin-bottom: 25%;
-        max-width: 50%;
+        margin-bottom: 5rem;
+        max-width: 35%;
       }
   }
