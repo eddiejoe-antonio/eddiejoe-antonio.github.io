@@ -55,11 +55,13 @@ body {
 .project__links {
     color: black;
     text-decoration: none;
+    padding: .25%;
 }
 
 .project__links:hover {
     background-color: blue;
     color: white;
+    transition: .5s;
 }
 
 .title:hover {
