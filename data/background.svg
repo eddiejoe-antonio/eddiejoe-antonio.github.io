@@ -3,12 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.37;}
+	.st0{opacity:0.5;}
 	.st1{fill:url(#SVGID_1_);}
 </style>
 <g class="st0">
-	
-		<radialGradient id="SVGID_1_" cx="644.3825" cy="512.998" r="593.262" gradientTransform="matrix(1 0 0 -1 0 1024)" gradientUnits="userSpaceOnUse">
+	<radialGradient id="SVGID_1_" cx="644.35" cy="511.05" r="593.2706" gradientUnits="userSpaceOnUse">
 		<stop  offset="5.618000e-03" style="stop-color:#F15F53"/>
 		<stop  offset="0.3095" style="stop-color:#F6938B"/>
 		<stop  offset="0.7833" style="stop-color:#FCE0DE"/>
