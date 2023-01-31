@@ -172,7 +172,7 @@ img {
 
     .project__image:hover {
         transform: scale(1.01);
-        opacity:85%;
+        opacity:90%;
         width: 100%;
     }
     
