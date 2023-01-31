@@ -192,12 +192,12 @@ img {
         margin-top: 0%;
     }
 
-
+    
     .project__text {
         max-width: 40%;
         margin-left: -50%;
         margin-right: 10%;
-        margin-top: 3.5vw;
+        margin-top: 12vmin;
     }
 }
     
