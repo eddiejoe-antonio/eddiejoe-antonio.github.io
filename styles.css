@@ -1,11 +1,11 @@
 @font-face {
     font-family: "akidenz";
-    src: url("data/Akzidenz-grotesk-light.ttf");
+    src: url("data/identity/Akzidenz-grotesk-light.ttf");
 }
 
 body {
     font-family: "akidenz";
-    background-image: url('./data/background.svg');
+    background-image: url('./data/identity/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -52,58 +52,21 @@ body {
     transition: .5s;
 }
 
-
-
-/*** DROPDOWN Menu ***/
-
-.dropbtn {
-    text-decoration: none;
+.project__links {
     color: black;
-    font-size: 3.375vh;
-    margin-left: -.5%;
-    padding: .5%;
-    border: none;
-    background: none;
-  }
-
-  .dropbtn:hover {
-    background-color: #dedede;
-    transition: .5s;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    margin-right: 2%;
-
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-    transition: .5s;
-  }
+}
+
+.project__links:hover {
+    background-color: blue;
+    color: white;
+}
+
+.title:hover {
+    background-color: blue;
+    color: white;
+}
+
 
 /** TEXT Rules **/
 .placeholder__text {
@@ -176,7 +139,8 @@ img {
 }
 
 .project__image {
-    max-width: 80%;
+    max-width: 100%;
+    filter: drop-shadow(.25rem .25rem 0.5rem #666);
 }
 
 
@@ -198,12 +162,13 @@ img {
     .project__image {
         max-width: 40%;
         object-fit: contain;
+        filter: drop-shadow(.25rem .25rem 0.5rem #666);
     }
     
     .project__header {
         font-size: 1.5rem;
         font-weight: bold;
-        max-width: 40%;
+        width: 40%;
         margin-left: 5%;
         margin-right: 10%;
         margin-top: -.25%;
