@@ -165,6 +165,15 @@ img {
         max-width: 40%;
         object-fit: contain;
         filter: drop-shadow(.25rem .25rem 0.5rem #666);
+        transition: transform 0.4s ease;
+        transform-origin: 50% 50%;
+        overflow:hidden;
+    }
+
+    .project__image:hover {
+        transform: scale(1.01);
+        opacity:85%;
+        width: 100%;
     }
     
     .project__header {
