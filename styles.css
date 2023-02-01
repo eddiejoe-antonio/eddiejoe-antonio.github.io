@@ -109,17 +109,16 @@ hr {
 /** CONTENT Mobile Page Rules **/
 
 .content__links {
-    color: #888;
-    text-decoration: underline;
-    padding: 0.5%;
-  }
+  color: #888;
+  text-decoration: underline;
+  padding: 0.5%;
+}
 
 .content__links:hover {
-    color: white;
-    background-color: blue;
-    transition: 0.5s;
-  }
-
+  color: white;
+  background-color: blue;
+  transition: 0.5s;
+}
 
 img {
   width: 100%;
