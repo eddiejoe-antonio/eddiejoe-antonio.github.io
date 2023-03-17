@@ -7,12 +7,13 @@
 
 body {
   font-family: "akidenz";
-  background-image: linear-gradient(blue, white);
-  background-image: url("./data/identity/background.svg");
+  background-color: #777;
+  /* background-image: url("./data/identity/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   margin-left: 2%;
+  color:white;
 }
 
 .responsive-spacing {
@@ -26,7 +27,9 @@ body {
   text-transform: capitalize;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: white;
+
+  /* color: black; */
   font-size: 3vh;
   margin-left: -0.5%;
   padding: 0.5%;
@@ -41,7 +44,8 @@ body {
 .title {
   position: absolute;
   text-transform: uppercase;
-  color: black;
+  color: greenyellow;
+  /* color: black; */
   text-decoration: none;
   font-size: 3vh;
   top: 5%;
@@ -54,12 +58,18 @@ body {
   transition: 0.5s;
 }
 
+.homepage__image
+{
+  width: 50vw;
+}
+
 .project__links {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 0.25%;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
+  font-size: 2.75vh;
 }
 
 .project__links:hover {
@@ -90,7 +100,7 @@ body {
 }
 
 .about__links {
-  color: #888;
+  color: blue;
   text-decoration: none;
   padding: 0.5%;
 }
@@ -116,8 +126,8 @@ hr {
 /** CONTENT Mobile Page Rules **/
 
 .content__links {
-  color: #888;
-  text-decoration: underline;
+  color: blue;
+  /* text-decoration: underline; */
   padding: 0.5%;
 }
 
@@ -218,6 +228,19 @@ img {
     margin-right: 10%;
     margin-top: 12vmin;
   }
+
+  .content__links {
+    color: blue;
+    text-decoration: none;
+    padding: 0.5%;
+  }
+  
+  .content__links:hover {
+    color: white;
+    background-color: blue;
+    transition: 0.5s;
+  }
+
 }
 
 

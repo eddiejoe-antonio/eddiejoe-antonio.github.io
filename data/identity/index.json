@@ -1,0 +1,27 @@
+[
+    {
+        "category": "Research",
+        "id": 0,
+        "name": "migrantsupportsystems"
+    },
+    {
+        "category": "Research",
+        "id": 1,
+        "name": "publicwifi"
+    },
+    {
+        "category": "Research",
+        "id": 2,
+        "name": "grasshopperparametric"
+    },
+    {
+        "category": "Research",
+        "id": 3,
+        "name": "embodiedcarbon"
+    },
+    {
+        "category": "Research",
+        "id": 4,
+        "name": "buellcenter"
+    }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;opacity:0.5;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{opacity:0.5;fill:url(#SVGID_00000105408735717575443250000002151951564579042713_);}
+</style>
+<g id="Layer_1" class="st0">
+	<g class="st1">
+		
+			<radialGradient id="SVGID_1_" cx="644.35" cy="512.95" r="593.2706" gradientTransform="matrix(1 0 0 -1 0 1024)" gradientUnits="userSpaceOnUse">
+			<stop  offset="5.618000e-03" style="stop-color:#F15F53"/>
+			<stop  offset="0.3095" style="stop-color:#F6938B"/>
+			<stop  offset="0.7833" style="stop-color:#FCE0DE"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</radialGradient>
+		<rect x="-8.7" y="-15.7" class="st2" width="1306.1" height="1053.5"/>
+		<path d="M1296.9-15.2v1052.4H-8.2V-15.2H1296.9 M1297.9-16.2H-9.2v1054.5h1307.1V-16.2L1297.9-16.2z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	
+		<radialGradient id="SVGID_00000085963793451042963050000003350310475553783199_" cx="640.3392" cy="503.5984" r="567.9531" gradientTransform="matrix(1 0 0 1.0445 0 -9.8793)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#0000FF;stop-opacity:0.5"/>
+		<stop  offset="0.1612" style="stop-color:#3F3FFF;stop-opacity:0.5806"/>
+		<stop  offset="0.3273" style="stop-color:#7979FF;stop-opacity:0.6636"/>
+		<stop  offset="0.4882" style="stop-color:#A9A9FF;stop-opacity:0.7441"/>
+		<stop  offset="0.6398" style="stop-color:#CECEFF;stop-opacity:0.8199"/>
+		<stop  offset="0.7799" style="stop-color:#E9E9FF;stop-opacity:0.8899"/>
+		<stop  offset="0.9042" style="stop-color:#F9F9FF;stop-opacity:0.9521"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	
+		<rect x="2.3" y="6.5" style="opacity:0.5;fill:url(#SVGID_00000085963793451042963050000003350310475553783199_);" width="1276.1" height="1019.3"/>
+</g>
+</svg>
