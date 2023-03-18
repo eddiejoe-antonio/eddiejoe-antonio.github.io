@@ -1,27 +1,80 @@
 [
     {
-        "category": "Research",
+        "category": "research",
         "id": 0,
+        "value": 0,
         "name": "migrantsupportsystems"
     },
     {
-        "category": "Research",
-        "id": 1,
+        "category": "research",
+        "id": 0,
+        "value": 1,
         "name": "publicwifi"
     },
     {
-        "category": "Research",
-        "id": 2,
+        "category": "research",
+        "id": 0,
+        "value": 2,
         "name": "grasshopperparametric"
     },
     {
-        "category": "Research",
-        "id": 3,
+        "category": "research",
+        "id": 0,
+        "value": 3,
         "name": "embodiedcarbon"
     },
     {
-        "category": "Research",
-        "id": 4,
+        "category": "research",
+        "id": 0,
+        "value": 4,
         "name": "buellcenter"
+    },
+    {
+        "category": "spatial",
+        "id": 1,
+        "value": 0,
+        "name": "greenway"
+    },
+    {
+        "category": "spatial",
+        "id": 1,
+        "value": 1,
+        "name": "mpjstatepark"
+    },
+    {
+        "category": "spatial",
+        "id": 1,
+        "value": 2,
+        "name": "andersonpark"
+    },
+    {
+        "category": "spatial",
+        "id": 1,
+        "value": 3,
+        "name": "furniture"
+    },
+    {
+        "category": "spatial",
+        "id": 1,
+        "value": 4,
+        "name": "miami"
+    },
+    {
+        "category": "digital",
+        "id": 2,
+        "value": 0,
+        "name": "mesh"
+    },
+    {
+        "category": "digital",
+        "id": 2,
+        "value": 1,
+        "name": "responsivesignage"
+    },
+    {
+        "category": "digital",
+        "id": 2,
+        "value": 2,
+        "name": "dailysketch"
     }
 ]
