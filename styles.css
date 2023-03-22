@@ -107,11 +107,6 @@ body {
   text-decoration: none;
   padding: 0.5%;
 }
-.about__links:hover {
-  color: white;
-  background-color: blue;
-  transition: 0.5s;
-}
 
 hr {
   border: 2px dashed;
@@ -202,6 +197,12 @@ img {
   }
 
   .content__links:hover {
+    color: black;
+    background-color: greenyellow;
+    transition: 0.5s;
+  }
+
+  .about__links:hover {
     color: black;
     background-color: greenyellow;
     transition: 0.5s;
