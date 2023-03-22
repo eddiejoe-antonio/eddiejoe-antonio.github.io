@@ -28,18 +28,19 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: white;
-
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
   /* color: black; */
   font-size: 3vh;
   margin-left: -0.5%;
   padding: 0.5%;
 }
 
-.links:hover {
+/* .links:hover {
   background-color: blue;
   color: white;
   transition: 0.5s;
-}
+} */
 
 .title {
   position: absolute;
@@ -48,15 +49,17 @@ body {
   /* color: black; */
   text-decoration: none;
   font-size: 3vh;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
   top: 5%;
   left: 2%;
 }
 
-.title:hover {
+/* .title:hover {
   background-color: blue;
   color: white;
   transition: 0.5s;
-}
+} */
 
 .homepage__image
 {
@@ -72,16 +75,16 @@ body {
   font-size: 2.75vh;
 }
 
-.project__links:hover {
+/* .project__links:hover {
   background-color: blue;
   color: white;
   transition: 0.5s;
-}
+} */
 
-.title:hover {
+/* .title:hover {
   background-color: blue;
   color: white;
-}
+} */
 
 /** TEXT Rules **/
 .placeholder__text {
@@ -131,11 +134,11 @@ hr {
   padding: 0.5%;
 }
 
-.content__links:hover {
+/* .content__links:hover {
   color: white;
   background-color: blue;
   transition: 0.5s;
-}
+} */
 
 img {
   width: 100%;
@@ -198,6 +201,28 @@ img {
     overflow: hidden;
   }
 
+  .content__links:hover {
+    color: black;
+    background-color: greenyellow;
+    transition: 0.5s;
+  }
+
+  .project__links:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+  }
+
+  .links:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+  }
+  .title:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+
   .project__image:hover {
     transform: scale(1.01);
     opacity: 90%;
@@ -235,11 +260,11 @@ img {
     padding: 0.5%;
   }
   
-  .content__links:hover {
+  /* .content__links:hover {
     color: white;
     background-color: blue;
     transition: 0.5s;
-  }
+  } */
 
 }
 
