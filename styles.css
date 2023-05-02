@@ -17,6 +17,7 @@ body {
   background-attachment: fixed;
   margin-left: 2%;
   color:#222;
+  padding: 1%;
 }
 
 /* .intro__body {
@@ -66,8 +67,8 @@ body {
   font-size: 1.5rem;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-  top: 5%;
-  left: 3%;
+  top: 7%;
+  left: 3.5%;
 }
 
 
@@ -78,7 +79,7 @@ body {
   padding: 0.25%;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -92,8 +93,8 @@ body {
 /** ABOUT PAGE Rules **/
 
 .about__text {
-  max-width: 80%;
-  font-size: 1.25rem;
+  max-width: 90%;
+  font-size: 1rem;
   margin-left: 1%;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -109,11 +110,6 @@ hr {
   border: 2px dashed;
   max-width: 50%;
   margin-left: 0%;
-}
-
-.about__text {
-  margin-bottom: 2rem;
-  max-width: 80%;
 }
 
 /** CONTENT Page Rules **/
@@ -141,7 +137,7 @@ img {
 
 .project__header {
   max-width: 90%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -172,7 +168,7 @@ img {
 
   .responsive-spacing {
     display: block;
-    margin-bottom: 5.25rem;
+    margin-bottom: 4.25rem;
   }
 
   .links {
@@ -183,7 +179,7 @@ img {
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
     /* color: black; */
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-left: 0.5%;
     padding: 0.5%;
   }
@@ -193,11 +189,11 @@ img {
     color: greenyellow;
     color: black;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
-    top: 5%;
-    left: 3%;
+    top: 9%;
+    left: 4%;
   }
 
 
@@ -270,7 +266,7 @@ img {
   }
 
   .project__header {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
     width: 40%;
     margin-left: 5%;
@@ -288,17 +284,35 @@ img {
   }
 
   .project__text {
-    font-size: 1.25rem;
+    font-size: 1rem;
     max-width: 40%;
     margin-left: -50%;
     margin-right: 10%;
     margin-top: 12vmin;
   }
 
+  .project__links {
+    color: #222;
+    /* color: #fff; */
+    text-decoration: none;
+    padding: 0.25%;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    font-size: 1.25rem;
+  }
+
   .content__links {
     color: blue;
     text-decoration: none;
     padding: 0.5%;
+  }
+
+  .about__text {
+    max-width: 40%;
+    font-size: 1rem;
+    margin-left: 1%;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
   }
 }
 
