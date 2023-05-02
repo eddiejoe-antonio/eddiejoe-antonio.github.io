@@ -5,8 +5,8 @@ d3.json('./data/identity/index.json')
     {
         //Width and height of svg
         var padding = (window.innerWidth / 20);
-        var w = window.innerWidth - padding;
-        var h = window.innerHeight - padding;
+        var w = window.innerWidth;
+        var h = window.innerHeight;
         var r = h / 10;
         console.log(padding);
 
@@ -21,14 +21,14 @@ d3.json('./data/identity/index.json')
                         d3.min(dataset, function(d) { return d.id; }), 
                         d3.max(dataset, function(d) { return d.id; })
                     ])
-                    .range([padding, w - (padding * 3)]);
+                    .range([0, w]);
 
         yScale = d3.scaleLinear()
                     .domain([
                         d3.min(dataset, function(d) { return d.value; }), 
                         d3.max(dataset, function(d) { return d.value; })
                     ])
-                    .range([h - (padding * 2), (padding * 1.25)]);
+                    .range([h, 0]);
 
         //Define X axis
         xAxis = d3.axisBottom()
@@ -69,7 +69,7 @@ d3.json('./data/identity/index.json')
                     return d.name;
                 })
                 .style("fill", "greenyellow")
-                .style("opacity", .125);
+                .style("opacity", .5);
 
             // Create animation, moving across time in the X dimension
             svg.selectAll("circle")
@@ -78,35 +78,37 @@ d3.json('./data/identity/index.json')
                         return (i*3);
                     })
                     .duration(3000)
-                    .attr("cx", function(d){
-                        return xScale(d.id);
+                    .attr("cx", function(d)
+                    {
+                        return xScale(d.id) * Math.random()
                     })
-                    .attr("cy", function(d){
-                        return yScale(d.value);
+                    .attr("cy", function(d)
+                    {
+                        return yScale(d.value) * Math.random();
                     })
                     .style("opacity", .5);
 
-            svg.selectAll("text")
-                    .data(dataset)
-                    .enter()
-                    .append("text")
-                    .transition()
-                    .delay(function(d, i){
-                        return (i*3);
-                    })
-                    .duration(3000)
-                    .text(function(d){
-                        return d.name;
-                    })
-                    .attr("xlink:href", function(d){
-                        return 'https://eddiejoeantonio.com/pages/' + d.category + d.name + '.html'
-                        console.log('https://eddiejoeantonio.com/pages/' + d.category + d.name + '.html');;
-                    })
-                    .attr("x", function(d){
-                        return xScale(d.id) - (r * 0.375);
-                    })
-                    .attr("y", function(d){
-                        return yScale(d.value) + (r * 0.375);
-                    })
-                    .style("fill", "white");
+            // svg.selectAll("text")
+            //         .data(dataset)
+            //         .enter()
+            //         .append("text")
+            //         .transition()
+            //         .delay(function(d, i){
+            //             return (i*3);
+            //         })
+            //         .duration(3000)
+            //         .text(function(d){
+            //             return d.name;
+            //         })
+            //         .attr("xlink:href", function(d){
+            //             return 'https://eddiejoeantonio.com/pages/' + d.category + d.name + '.html'
+            //             console.log('https://eddiejoeantonio.com/pages/' + d.category + d.name + '.html');;
+            //         })
+            //         .attr("x", function(d){
+            //             return xScale(d.id) - (r * 0.375);
+            //         })
+            //         .attr("y", function(d){
+            //             return yScale(d.value) + (r * 0.375);
+            //         })
+            //         .style("fill", "white");
     })
